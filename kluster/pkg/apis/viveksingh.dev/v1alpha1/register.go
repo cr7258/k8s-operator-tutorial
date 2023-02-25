@@ -10,6 +10,7 @@ var SchemeGroupVersion = schema.GroupVersion{Group: "viveksingh.dev", Version: "
 
 var (
 	SchemeBuilder runtime.SchemeBuilder
+	AddToScheme   = SchemeBuilder.AddToScheme
 )
 
 func init() {
